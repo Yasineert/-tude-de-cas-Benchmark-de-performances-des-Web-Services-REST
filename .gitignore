@@ -1,0 +1,57 @@
+# Fichiers binaires et temporaires
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.temp
+
+# Dossiers de build Maven
+**/target/
+**/bin/
+
+# Resultats JMeter (volumineux)
+jmeter/results/*.jtl
+jmeter/reports/*/
+jmeter/logs/*.log
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scripts temporaires
+run-quick-*.ps1
+extract-metrics.ps1
+cleanup-before-push.ps1
+fill-all-tables.ps1
+
+# Documentation temporaire
+PLAN-*.md
+ETAT-*.md
+COMMANDES-*.md
+analysis/COMMENT-*.md
+analysis/GUIDE_*.md
+analysis/*-RAPIDE.csv
+analysis/metriques-*.txt
+
+# Sauvegardes
+*.backup
+*.bak
+
+# Node modules (si utilise)
+node_modules/
+
+# Environnement
+.env
+.env.local
